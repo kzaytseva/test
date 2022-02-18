@@ -20,3 +20,8 @@ def test():
 		assert x+y
 	except: 
 		pass
+4)
+import pytest
+@pytest.mark.parametrize("n,expected", [("hello", "world"), ("Anna", "my name is Anna")])
+def test_(n, expected):
+    assert n in expected

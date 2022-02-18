@@ -1,1 +1,8 @@
-тут будет код
+1)
+
+x = 'hello'
+s = 'hello world'
+def test():
+	assert x in s
+  
+2)

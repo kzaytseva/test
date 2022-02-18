@@ -6,3 +6,10 @@ def test():
 	assert x in s
   
 2)
+def test():
+	try:
+		x = 'g'
+		assert x[2]
+	except: 
+		pass
+3)

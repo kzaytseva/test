@@ -13,3 +13,10 @@ def test():
 	except: 
 		pass
 3)
+def test():
+	try:
+		x = 'hi'
+		y = 2.5
+		assert x+y
+	except: 
+		pass

@@ -25,3 +25,10 @@ import pytest
 @pytest.mark.parametrize("n,expected", [("hello", "world"), ("Anna", "my name is Anna")])
 def test_(n, expected):
     assert n in expected
+5)
+def test():
+	try:
+		x = 0.0
+		assert abs(x)
+	except:
+		pass
